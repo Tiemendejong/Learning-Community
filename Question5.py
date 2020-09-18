@@ -1,15 +1,15 @@
-response = input(100) #principal amount
+response = input("initial amount") #principal amount
 p = float(response)
 
-responseR = input(5) #Nominal Interest rate
+responseR = input("interest rate") #Nominal Interest rate
 r = float(responseR)
 
-responseN = input(3) #number of times interest is compounded
+responseN = input("Number of times p/y interest is compunded") #number of times interest is compounded
 n = float(responseN)
 
-responseT = input(10) #amount of years
+responseT = input("amount of years") #amount of years
 t = float(responseT)
 
-print("the present value is", (p * (1+r/n) ** (n*t)))
+print("the present value is:", (p * (1+r/n) ** (n*t)))
 
 
