@@ -3,7 +3,7 @@ p = float(response)
 a = 50  #speed of car
 b = 20  #speed of biking
 c = 5   #speed of walking
-d = 5   #minutes for finding a parking spot
+d = 4   #minutes for finding a parking spot
 e = 2   #minutes to grab your bike
 
 print("time it would take for you to arrive in minutes")
