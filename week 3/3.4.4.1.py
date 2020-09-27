@@ -12,3 +12,4 @@ if p == 5:
     print("thursday")
 if p == 6:
     print("friday")
+ddd
